@@ -6,7 +6,7 @@ echo "Welcome To User Registration"
 #UC1
 
 read -p "enter a name " name
-Pattern1='^[A-Z]{1}[a-zA-Z]{3,15}$';
+Pttern1='^[A-Z]{1}[a-zA-Z]{3,15}$';
 if [[ $name =~ $Pattern1 ]]
 then
     echo "yes"
@@ -60,3 +60,14 @@ else
     echo "no"
 fi
 
+
+#UC6
+
+read -p "enter a pasword " Q
+Pattern6='^[A-Z]{1}[a-zA-Z]{8,}$';
+if [[ $Q =~ $Pattern6 ]]
+then
+    echo "yes"
+else
+    echo "no"
+fi
