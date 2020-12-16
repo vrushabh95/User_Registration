@@ -94,3 +94,14 @@ then
 else
     echo "no"
 fi
+
+#UC9
+
+read -p "enter a email " E
+Pattern9="^[a-zA-Z0-9._-+]+@(gmail|abc|yahoo)+.(com|co|in)";
+if [[ $E =~ $Pattern9 ]]
+then
+    echo "yes"
+else
+    echo "no"
+fi
